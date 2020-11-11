@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './Nav';
 import MovieList from './MovieList';
 import {MovieProvider} from './MovieContext';
+import AddUser from './AddUser';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <MovieProvider>
       <div className="App">
         <Nav />
+        <AddUser />
         <MovieList />
       </div>
     </MovieProvider>
@@ -16,3 +18,4 @@ function App() {
 }
 
 export default App;
+ 
